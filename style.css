@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.starting-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px,20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.contact-info{
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+.contact-info span{
+    color: rgb(196, 221, 9);
+    margin-right: 5px;
+
+}
+
+.auth-options{
+    margin: 0 10px;
+    text-decoration: none;
+    color:black;
+    display: flex;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.language{
+    margin: 10px;
+    margin-right: 100px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    background-color: black;
+}
+
+.nav-bar logo{
+
+    flex:1;
+}
+
+.nav-links{
+    display: flex;
+    flex: 5;
+    justify-content: center;
+}
+
+.nav-links a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover{
+    color: yellow;
+}
+
+.book-now{
+    flex: 1;
+    text-align: right;
+}
+
+.book-now button{
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;   
+
+}
